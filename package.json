@@ -1,0 +1,13 @@
+{
+  "name": "graceful-shutdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
