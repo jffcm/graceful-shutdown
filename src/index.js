@@ -28,7 +28,6 @@ server.listen(PORT, () => {
 // Graceful shutdown
 process.on('SIGTERM', () => {
     server.close(() => {
-        console.info('database closed');
         database.close();
         exit(0);
     });
